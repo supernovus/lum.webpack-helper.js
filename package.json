@@ -1,10 +1,12 @@
 {
   "name": "@lumjs/webpack-helper",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "main": "lib/index.js",
   "exports":
   {
     ".": "./lib/index.js",
+    "./section": "./lib/section.js",
+    "./statement": "./lib/statement.js",
     "./package.json": "./package.json"
   },
   "license": "MIT",
@@ -15,7 +17,7 @@
   },
   "dependencies": 
   {
-    "@lumjs/core": "^1.12.1"
+    "@lumjs/core": "^1.16.0"
   },
   "scripts":
   {
